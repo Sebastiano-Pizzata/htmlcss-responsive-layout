@@ -386,4 +386,59 @@ footer a {
 	}
 	
 }
-	
+
+
+/* modalità Desktop */
+	@media  screen and (min-width:992px) {
+		.recipe-category {
+			color: #999;
+			font-size: 18px;
+			font-weight: normal;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+		
+		.recipe-name{
+			font-size: 40px;
+		}
+		
+		.quick-notes ul{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+		.recipe-card{
+			display: flex;
+		}
+
+		.recipe-video{
+			flex-basis: 70%;
+			float: left;
+			max-height: 500px ;
+		}
+
+		.recipe-info{
+			flex-basis: 30%;
+		}
+
+		.social-networks .label {
+			display: inline-block;
+			
+		}
+
+		footer{
+			display: flex;
+			justify-content: space-between;
+		}
+			
+		
+		
+
+
+
+		
+ 
+
+
+	}
